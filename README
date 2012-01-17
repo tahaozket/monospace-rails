@@ -6,6 +6,7 @@ You can play with a live version at https://monospace-rails.heroku.com/
 
 Installation steps:
 * You will need a publishable token and a secret token. Add them both to config/initializers/stripe.rb.
+* Create a plan with the ID "premium" here: https://manage.stripe.com/#test/plans
 * Install the bundler gem if you don't already have it
 * Run the command "bundle" from the root of this project
 * Run the command "bundle exec rake db:setup" from the root of this project
