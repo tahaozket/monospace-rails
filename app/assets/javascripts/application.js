@@ -1,3 +1,5 @@
+//= require jquery
+
 $(function() {
   $("#credit-card input, #credit-card select").attr("disabled", false);
 
